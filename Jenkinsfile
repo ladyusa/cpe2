@@ -4,7 +4,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'docker',
-                        url: 'https://github.com/ladyusa/cpe2.git'
+                        url: 'https://github.com/ladyusa/docker101.git'
                }
           }
           stage('Build') {

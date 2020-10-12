@@ -5,8 +5,8 @@ RUN apt-get update && \
             nodejs \
             npm
 RUN git clone \
-    https://github.com/ladyusa/cpe2.git
-WORKDIR /cpe2
+    https://github.com/ladyusa/docker101.git
+WORKDIR /docker101
 RUN npm install
 EXPOSE 9000
 CMD ["npm", "start"]
